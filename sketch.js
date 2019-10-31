@@ -1,8 +1,10 @@
 let kiwiButton;
 let kiwiBird;
+let cnv;
 
 function setup() {
-  noCanvas();
+  cnv = createCanvas(128,126);
+  cnv.parent("#canvasDiv");
   kiwiButton= select('#kiwiButton')
   kiwiButton.style("padding","50px");
   kiwiButton.style("background-color","#7affa0");
