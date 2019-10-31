@@ -10,8 +10,9 @@ function preload() {
 
 
 function setup() {
-  cnv = createCanvas(128,126);
-  cnv.parent("#canvasDiv");
+  //cnv = createCanvas(128,126);
+  noCanvas();
+  //cnv.parent("#canvasDiv");
   kiwiButton= select('#kiwiButton')
   kiwiButton.style("padding","50px");
   kiwiButton.style("background-color","#7affa0");
